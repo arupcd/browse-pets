@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo-header.png" type="image/x-icon">
     <title>Browse Pets</title>
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -15,12 +16,50 @@
     <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/dd866512c0.js" crossorigin="anonymous"></script>
 
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            petsLight: '#fff9f4',
+            petsPrimary: '#ffdc26',
+          }
+        }
+      }
+    }
+  </script>
     </head>
 <body>
     <!-- Header Section -->
-    <header>
-        
+    <header class="mx-auto header bg-petsLight px-36 py-4">
+        <nav class="flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="assets/logo-header.png" alt="Pets Logo">
+                <p class="pl-2 text-2xl font-normal brand-name">Browse<span class="text-petsPrimary">4</span>Pets</p>
+            </div>
+            <!-- Menus -->
+            <div>
+                <ul class="flex gap-10 header-menus">
+                <li><a href="#">Find a pet</a></li>
+                <li><a href="#">Breeds</a></li>
+                <li><a href="#">Contact us</a></li>
+             </ul>
+            </div>
+
+            <!-- Login -->
+            <div class="">
+               <i class="fa-regular fa-bell pr-4"></i>
+                <i class="fa-solid fa-magnifying-glass pr-4"></i>
+                <button class="btn-login" ><a href="#">Login</a></button>
+                <button class="btn-register" ><a href="#">Register</a></button>
+                
+            </div>
+        </nav>
     </header>
 
     <!-- Main Section -->
