@@ -31,3 +31,8 @@ body{
     margin-left:10px;
     font-weight: 400;
 }
+.icon {
+    /* display: none; */
+    align-items: center;
+    font-size: 27px;
+}

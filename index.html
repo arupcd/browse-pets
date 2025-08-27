@@ -35,15 +35,16 @@
     </head>
 <body>
     <!-- Header Section -->
-    <header class="mx-auto header bg-petsLight px-36 py-4">
-        <nav class="flex justify-between items-center">
+    <header class="mx-auto header bg-petsLight lg:px-36 lg:py-4">
+        <nav class="container flex justify-between items-center px-3 lg:-0">
             <!-- Logo -->
+             
             <div class="flex items-center">
                 <img src="assets/logo-header.png" alt="Pets Logo">
                 <p class="pl-2 text-2xl font-normal brand-name">Browse<span class="text-petsPrimary">4</span>Pets</p>
             </div>
             <!-- Menus -->
-            <div>
+            <div class="hidden sm:block">
                 <ul class="flex gap-10 header-menus">
                 <li><a href="#">Find a pet</a></li>
                 <li><a href="#">Breeds</a></li>
@@ -52,12 +53,14 @@
             </div>
 
             <!-- Login -->
-            <div class="">
+            <div class="hidden sm:block">
                <i class="fa-regular fa-bell pr-4"></i>
                 <i class="fa-solid fa-magnifying-glass pr-4"></i>
                 <button class="btn-login" ><a href="#">Login</a></button>
                 <button class="btn-register" ><a href="#">Register</a></button>
-                
+            </div>
+            <div class="icon sm:hidden">
+              <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>
