@@ -1,6 +1,11 @@
 body{
+    
+}
+
+.ad-regular {
     font-family: "ADLaM Display", system-ui;
 }
+
 /* Header Style */
 .brand-name {
     font-family: Sora;
@@ -11,9 +16,18 @@ body{
     font-family: Sora;
     font-size: 20px;
 }
+.custom-btn{
+    padding: 5px 30px 7px 30px;
+    border: 1px solid var(--Accent, rgba(255, 220, 38, 1));
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    background: rgba(255, 220, 38, 1);
+}
+
 .btn-login {
     font-family: Sora;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px 5px 30px;
     border: 1px solid var(--Accent, rgba(255, 220, 38, 1));
     border-radius: 8px;
     font-size: 20px;
@@ -24,15 +38,34 @@ body{
 }
 .btn-register {
     font-family: Sora;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px 5px 30px;
     background: rgba(255, 220, 38, 1);
     border-radius: 8px;
     font-size: 20px;
-    margin-left:10px;
     font-weight: 400;
 }
 .icon {
-    /* display: none; */
     align-items: center;
     font-size: 27px;
+}
+
+/* HERO SECTION */
+.hero-section{
+    width: 100%;
+    height: 89vh;
+    background-image: url('../assets/cat-big.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-title {
+    height: 219px;
+    width: 681px;
+}
+.hero-title h1 {
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 400;
 }
