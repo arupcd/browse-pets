@@ -61,8 +61,8 @@ body{
 }
 
 .hero-title {
-    height: 219px;
-    width: 681px;
+    /* height: 219px; */
+    /* width: 681px; */
 }
 .hero-title h1 {
     font-size: 56px;
