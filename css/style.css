@@ -72,3 +72,25 @@ body{
     /* line-height: 100%; */
  /* font-weight: 400; */
 }
+
+/* Category Section */
+
+.category {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 254px;
+    border-radius: 12px;
+    padding: 34px 45px;
+    justify-items: center;
+    border-radius: 12px;
+    background: rgba(249, 223, 138, 1);
+}
+.category .icon {
+    padding: 16px;
+    border-radius: 100%;
+    background-color: #fff;
+}
