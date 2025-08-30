@@ -125,6 +125,8 @@ body{
 
 
 
+
+
 /* Responsive For Mobile */
 
 @media (max-width: 640px) {
@@ -138,5 +140,8 @@ body{
   }
   .news-latter-info {
     text-align: center;
+  }
+  .category-title {
+    font-size: 17px;
   }
 }
