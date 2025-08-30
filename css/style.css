@@ -1,5 +1,5 @@
 body{
-    
+
 }
 
 .ad-regular {
@@ -68,6 +68,11 @@ body{
 @media (max-width: 640px) {
   .hero-section {
     background-image: none; /* background image remove হবে */
+    height: 40vh;
+  }
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .hero-title {
@@ -87,8 +92,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 254px;
     border-radius: 12px;
     padding: 34px 45px;
     justify-items: center;
