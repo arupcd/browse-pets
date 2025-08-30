@@ -117,6 +117,17 @@ body{
     font-family: Sora;
 }
 
+/* Everyday Low Price */
+.low-price-card-info {
+  background: linear-gradient(to right, rgba(248, 204, 251, 1),
+rgba(172, 210, 253, 1));
+  border-radius: 12px;
+}
+
+.t-shirt-for-dog {
+  background: linear-gradient(134.71deg, rgba(255, 249, 244, 1),rgba(249, 223, 138, 1) 100%);
+  border-radius: 12px;
+}
 
 
 
