@@ -28,6 +28,7 @@
             petsLight: '#fff9f4',
             petsPrimary: '#ffdc26',
             petsNewslatter: 'rgba(255, 249, 244, 1)',
+            petsFooter: '#ffed92',
           }
         }
       }
@@ -190,9 +191,9 @@
 
           <!-- News Latter Section -->
           <section class="newslatter py-15">
-            <div class="container mx-auto rounded-2xl bg-petsNewslatter flex">
+            <div class="container mx-auto rounded-2xl bg-petsNewslatter flex -mt-">
               <!-- Main Div -->
-              <div class="grid grid-cols-1 lg:grid-cols-2 pl-20 py-9">
+              <div class="grid grid-cols-1 lg:grid-cols-2 pl-20 py-9 bg-white">
                 <!-- News Latter Left Image -->
                 <div class="basis-2/5">
                   <img class="w-80 h-auto" src="assets/cute-pet-mid.png" alt="Cute Pet Mid">
@@ -212,8 +213,41 @@
           </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="bg-petsFooter pt-40 pb-15">
+      <div class="container mx-auto ">
+        <!-- Content Section -->
+         <div class="grid grid-cols-1 sm:grid-cols-3 justify-items-center">
+          <!-- Part 1 -->
+           <div class="">
+              <div class="flex items-center">
+                <img src="assets/logo-footer.png" alt="footer Logo">
+                <p class="pl-4 ad-regular font-normal text-lg">Browse Pets</p>
+              </div>
+              <p class="sora-font mt-4">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+           </div>
 
+
+           <!-- Part 2 -->
+           <div>
+                <ul class="gap-10 ">
+                  <li><a href="#">Find a pet</a></li>
+                  <li><a href="#">Breeds</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+           </div>
+
+           <!-- Part 3 -->
+           <div>
+              <div class="social">
+                <h2 class="pb-4">Follow Us</h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+           </div>
+         </div>
+      </div>
     </footer>
 </body>
 </html>
