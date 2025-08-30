@@ -24,11 +24,15 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
             petsLight: '#fff9f4',
             petsPrimary: '#ffdc26',
+            petsLight: '#fff9f4',
+            bgSection: '#fff9f4',
             petsNewslatter: 'rgba(255, 249, 244, 1)',
+            bgCols: 'rgba(249, 223, 138, 1)',
+            bgParagraph: 'rgba(17, 17, 17, 0.7);',
             petsFooter: '#ffed92',
+            bgCategory: '#fff9f4',
           }
         }
       }
@@ -86,8 +90,8 @@
           <div class="container mx-auto flex">
             <div class="grid grid-cols-1  md:grid-cols-[45%_55%] gap-3">
               <!-- Image Col -->
-              <div class="about-image hidden md:block">
-                <img class="h-[500px] w-[480px] border border-petPrimary rounded shadow-md p-4" src="assets/cat-about.png" alt="cat about">
+              <div class="about-image ">
+                <img class="h-[500px] w-[480px] border border-petPrimary rounded shadow-md p-4 hidden md:block" src="assets/cat-about.png" alt="cat about">
               </div>
               <!-- About Info -->
                 <div class="about-info space-y-2 flex flex-col justify-center">
@@ -182,6 +186,170 @@
              </div>
           </div>
          </section>
+
+         <!-- Trending Pet Products Section -->
+          <section class="bg-bgSection py-24">
+            <div class="container mx-auto">
+              <!-- Title -->
+              <h2 class="text-3xl font-normal ad-regular">Trending Pet Products</h2>
+              <!-- Main Grid -->
+               <div class="grid grid-cols-1 lg:grid-cols-3 pt-12 gap-8">
+                <!-- Promo Left-->
+                  <article class="col-span-1 bg-bgCols rounded-xl pt-14 pl-8">
+                    <div class="space-y-4">
+                      <h2 class="text-2xl font-semibold ad-regular">T-Shirt For Dogs</h2>
+                      <p class="sora-font font-normal text-bgParagraph text-lg">Discover a world of treats, toys, and <br> essentials handpicked for</p>
+                      <button class="btn-pets" ><a href="#">Shop Now</a></button>
+                    </div>
+                    <div class="justify-items-end -mt-34">
+                      <img class="h-[221px]"  src="assets/cute-pet-small.png" alt="Cute Small Pet">
+                    </div>
+                  </article>
+
+                  <!-- Category Right -->
+                  <div class="right-category-main col-span-2">
+                    <!-- Card List -->
+                    <div class="card-lists grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                      <!-- Single Card 01-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="" src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                      <!-- Single Card 02-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/fish-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+                      <!-- Single Card 03-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/bird-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+                      <!-- Single Card 04-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                      <!-- Single Card 05-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/bird-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                      <!-- Single Card 06-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/pet-couch.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                      <!-- Single Card 07-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/fish-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                      <!-- Single Card 08-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/rabbit-cartoon.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                      <!-- Single Card 09-->
+                      <div class="flex gap-4 items-center bg-white rounded border py-2 px-4">
+                        <div class="p-3 bg-bgCategory rounded">
+                          <img class="object-cover" src="assets/pet-couch.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                          <div>
+                          <i class="fa-solid fa-star text-petsPrimary"></i>
+                          <span class="font-semibold">4.5</span>
+                        </div>
+                        <h2 class="category-title">Pet Bed</h2>
+                        <p class="bed-pets-price">$29.99</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+               </div>
+            </div>
+          </section>
+
+
 
          <!-- Trending Pet Products Section -->
           <section>

@@ -94,7 +94,28 @@ body{
     background-color: #fff;
 }
 
-/* About Us */
+
+
+/* Trending Pets Product */
+.btn-pets{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.category-title {
+    color: var(--Text, rgba(17, 17, 17, 1));
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.bed-pets-price {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Sora;
+}
 
 
 
